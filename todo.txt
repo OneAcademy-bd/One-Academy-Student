@@ -1,0 +1,33 @@
+[+] optimize all aceternity components
+[+] add zod verification later
+[+] add nextui radio group
+[+] dashboard -> taken_exams: render as a data table with react table or tanstack table, can be sorted by marks, total_attempts
+[+] add profileCompleteness ratio
+[+] change password in another form, another view, email or phone verification first then allow to change
+[+] pagination on all sections, both in frontend and backend
+[+] optimistic update when update profile
+[+] validate all properties when update profile to reduce backend request-response
+[+] implement throttling on user update, exam, verify exam etc.
+[+] email verification on registration
+[+] handle - not found 404 error - "exams/5/", try with react router dom
+[+] bring logo as svg
+[+] log me in for 1-5-7 days
+[+] login required view
+[+] add blog page
+[+] skeleton component on loading state
+[+] react visibility sensor for count-up
+[+] uninstall zustand
+
+[-] pie graph in exam evaluation page - not looks well
+[-] change dashboard to profile - keep it as it is
+[x] refetch exams on mount ExamsList
+[-] set axios defaults on api/calls - no, it persists the old value
+[x] login the user and take his/her to dashboard then get token immediately
+[x] duration timer
+[x] evaluation show page
+[x] uninstall tailwind forms plugin
+[x] passwords didn't match on frontend
+[x] redesign and reconfigure evaluation page
+[x] what if academy name is so long
+[x] do not send any request to backend if no changes detected in update profile
+[x] update profile patch request problem
