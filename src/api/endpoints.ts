@@ -1,11 +1,11 @@
 // local in this system
-// const API_BASE = 'http://127.0.0.1:8000'
+const API_BASE = 'http://127.0.0.1:8000'
 
 // local in this LAN
 // const API_BASE = 'http://192.168.1.115:8000'
 
 // aws
-const API_BASE = 'http://13.126.56.249:8000'
+// const API_BASE = 'http://13.126.56.249:8000'
 
 export const endpoints = {
     profile: `${API_BASE}/student/api/profile/`,
